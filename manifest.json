@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Slot Monitor Screenshot Sender",
+  "description": "Captures masked screenshots when a location is selected and sends them to Discord.",
+  "version": "1.0",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>",
+    "https://discord.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["htmltocanvas.min.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Slot Monitor"
+  }
+}
