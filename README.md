@@ -12,4 +12,4 @@ Replace the empty strings with your bot and channel id within the quotes on line
 
 **Note:** It works only on webpages loaded after the extension is added or enabled. If you add the extension after loading the webpage, reload it.
 
-**Terms** This is strictly for closed group of friends or people who consent to share this data among themself, so that they might help each other in finsing f1 visa slots. This script as it is doesn't inject scripts or interact with the actual website other than listening, so dont modify it to use it for illegal actions!
+**Terms** This is strictly for closed group of friends or people who consent to share this data among themself, so that they might help each other in finding f1 visa slots. This script as it is doesn't inject scripts or interact with the actual website other than listening, so dont modify it to use it for illegal actions!
